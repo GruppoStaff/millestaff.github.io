@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
   <meta charset="utf-8">
-<meta property="og:title" content="Gruppo Staff">
-<meta property="og:description" content="Gruppo Staff: Giovani volontari pronti a organizzare attività e eventi">
-<meta property="og:image" content="https://gruppostaff.github.io">
-<meta property="og:url" content="https://gruppostaff.github.io">
-<meta property="og:type" content="website">
-<img src="logo.png" alt="Logo ufficiale">
-  <!-- Questo comando dice al browser di andare al sito Google dopo 0 secondi -->
-  <meta http-equiv="refresh" content="10; url=https://sites.google.com/view/gruppostaff">
+  <title>Gruppo Staff - Reindirizzamento</title>
+  
+  <!-- SEO e Social -->
+  <meta property="og:title" content="Gruppo Staff">
+  <meta property="og:description" content="Gruppo Staff: Giovani volontari pronti a organizzare attività e eventi">
+  <meta property="og:image" content="https://gruppostaff.github.io"> <!-- URL completo dell'immagine -->
+  <meta property="og:url" content="https://gruppostaff.github.io">
+  <meta property="og:type" content="website">
   <link rel="canonical" href="https://sites.google.com/view/gruppostaff">
+
+  <!-- Reindirizzamento dopo 3 secondi (così vedono il logo) -->
+  <meta http-equiv="refresh" content="3; url=https://sites.google.com/view/gruppostaff">
+
   <script type="text/javascript">
-    window.location.href = "https://sites.google.com/view/gruppostaff"
+    // Rimuoviamo il redirect istantaneo JS per permettere la visione del logo
+    // Se vuoi che sia istantaneo, togli il commento alla riga sotto:
+    // window.location.href = "https://sites.google.com/view/gruppostaff";
   </script>
 </head>
-<body>
-  Se non vieni reindirizzato automaticamente, <a href="https://sites.google.com/view/gruppostaff">clicca qui</a>.
+<body style="text-align: center; font-family: sans-serif; padding-top: 50px;">
+
+  <!-- L'immagine va qui nel BODY -->
+  <img src="logo.png" alt="Logo ufficiale Gruppo Staff" style="max-width: 200px;"><br>
+  
+  <p>Ti stiamo portando sul sito del <strong>Gruppo Staff</strong>...</p>
+  <p>Se non vieni reindirizzato automaticamente, <a href="https://sites.google.com/view/gruppostaff">clicca qui</a>.</p>
+
 </body>
 </html>
